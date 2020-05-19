@@ -1,5 +1,6 @@
 package gameView;
 
-public class gamePanel {
+public class gamePanel extends JPanel
+{
 
 }
