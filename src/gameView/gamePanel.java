@@ -9,13 +9,21 @@ import java.awt.Dimension;
 
 public class gamePanel extends JPanel
 {
-	private Controller controller;
+	private Controller app;
 	private SpringLayout appLayout;
 	
-	public gamePanel(Controller controller)
+	public gamePanel(Controller app)
 	{
+		super();
+		this.app = app;
+		this.appLayout = new SpringLayout();
 		
+		setupPanel();
+		setupLayout();
+		setupListeners();
 	}
+	
+	//What if I got Karlson Vibe to play in the program? Funny.
 	
 	private void setupDropDown()
 	{
