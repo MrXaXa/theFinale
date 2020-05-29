@@ -45,5 +45,25 @@ public class gamePanel extends JPanel
 		
 	}
 	
+	/*
+	  private void updateDisplay(String name)
+	{
+		String path = "/poke/view/images/";
+		String defaultName = "SupahNut";
+		String extension = ".png";
+		try
+		{
+			pokemonIcon = new ImageIcon(getClass().getResource(path + name + extension));
+		}
+		catch (NullPointerException missingFile)
+		{
+			pokemonIcon = new ImageIcon(getClass().getResource(path + defaultName + extension));
+		}
+		pokedexLabel.setIcon(pokemonIcon);
+		repaint();
+	}
+	this could be good for figuring out how to paint the images on the individual squares
+	*/
+	
 	
 }
