@@ -56,25 +56,22 @@ public class gamePanel extends JPanel
 		// Make sure you input commands to select a square and move it
 	}
 	
-	/*
+	
 	  private void updateDisplay(String name)
 	{
-		String path = "/poke/view/images/";
-		String defaultName = "SupahNut";
-		String extension = ".png";
+		String path = "/empty/imageIcons/Desktop/";
+		String defaultName = "nasaIcon1";
+		String extension = ".jpg";
 		try
 		{
-			pokemonIcon = new ImageIcon(getClass().getResource(path + name + extension));
+			iconOne = new ImageIcon(getClass().getResource(path + name + extension));
 		}
 		catch (NullPointerException missingFile)
 		{
-			pokemonIcon = new ImageIcon(getClass().getResource(path + defaultName + extension));
+			iconBlank = new ImageIcon(getClass().getResource(path + defaultName + extension));
 		}
-		pokedexLabel.setIcon(pokemonIcon);
 		repaint();
 	}
-	this could be good for figuring out how to paint the images on the individual squares
-	*/
 	
 	
 }
