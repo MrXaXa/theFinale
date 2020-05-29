@@ -12,6 +12,17 @@ public class gamePanel extends JPanel
 	private Controller app;
 	private SpringLayout appLayout;
 	
+	public ImageIcon iconOne;
+	public ImageIcon iconTwo;
+	public ImageIcon iconThree;
+	public ImageIcon iconFour;
+	public ImageIcon iconFive;
+	public ImageIcon iconSix;
+	public ImageIcon iconSeven;
+	public ImageIcon iconEight;
+	
+	public ImageIcon iconBlank;
+	
 	public gamePanel(Controller app)
 	{
 		super();
