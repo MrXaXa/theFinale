@@ -27,12 +27,12 @@ public class gamePanel extends JPanel
 	
 	private void setupDropDown()
 	{
-		
+		// I don't believe I need this method
 	}
 	
 	private void setupPanel()
 	{
-		
+		//We may need a button to start the game or initiate an if/else statement on the order of blocks
 	}
 	
 	private void setupLayout()
@@ -42,7 +42,7 @@ public class gamePanel extends JPanel
 	
 	private void setupListeners()
 	{
-		
+		// Make sure you input commands to select a square and move it
 	}
 	
 	/*
